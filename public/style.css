@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tools-content{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.tool{
+    height: 50px;
+    width: 80px;
+    position: relative;
+}
+
+.tool img{
+    height: 100%;
+    width: 100%;
+}
+
+#canvas{
+
+}
+
+.tool-options{
+    height: 100px;
+    width: 150px;
+    background: lightcyan;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: -30px;
+}
+
+.pencil-colors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.black{
+    background: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+
+}
+
+.blue{
+    background: blue;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+}
+
+.yellow{
+    background: yellow;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+}
+
+.red{
+    background: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+}
+
+.hide{
+    display: none;
+}
+
+.active-tool{
+    height: 65px;
+    background : lightgray;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.sticky{
+    position: absolute;
+    top: 160px;
+    height: 200px;
+    width: 200px;
+    left: 275px;
+    border-radius: 15px;
+    /*box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);*/
+}
+
+.sticky-nav{
+    height: 15%;
+    background: beige;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.minimize{height: 20px;
+    width: 20px;
+    background: cornflowerblue;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.close{
+    height: 20px;
+    width: 20px;
+    background: crimson;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.sticky-content{
+    height: 85%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    /* width: 100%; */
+}
+
+#sticky-text{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid lavenderblush;
+    border-bottom-left-radius: 15px;
+}
+
+.sticky-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
